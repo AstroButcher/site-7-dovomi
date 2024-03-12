@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(240, 251, 255);
+}
+.blok {
+    width: 1400px;
+    margin: auto;
+}
+.blok img {
+    float: left;
+}
+.taraf {
+    padding-top: 20px;
+}
+.taraf li {
+    padding-top: 5px;
+}
+.left {
+    float: left;
+}
+.left li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.left li a:hover{
+    color: green;
+}
+.right {
+    float: right;
+}
+.right li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.right select {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: rgb(240, 251, 255);
+    text-align: center;
+    font-size: 17px;
+}
+.right li a:hover{
+    color: green;
+}
+.hrhr {
+    width: 1400px;
+    margin-top: 50px;
+}
+.ikkinchi li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.ikkinchi li i{
+    font-size: 19px;
+    color: green;
+}
+.ikkinchi li a:hover{
+    color: blue;
+}
+.apps {
+    float: right;
+    margin-right: 20px;
+}
+.ong {
+    width: 700px;
+    float: left;
+    font-size: 25px;
+    padding-top: 120px;
+}
+.chap {
+    width: 700px;
+    float: right;
+}
+.chap img {
+    width: 700px;
+    height: 480px;
+}
+.ong button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(169, 65, 65);
+    color: white;
+    font-size: 15px;
+}
+.ong button:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+.main {
+    width: 100%;
+    height: 1050px;
+}
+.info {
+    width: 1400px;
+    margin: auto;
+}
+.carusel {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(240, 251, 255);
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.carusel img {
+    border-radius: 15px;
+}
+.carusel p {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.caruselflex {
+    display: flex;
+}
+.carusel:hover {
+    box-shadow: -1px 7px 5px 3px rgba(206, 206, 206, 0.75);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.btn {
+    width: 250px;
+    height: 60px;
+    margin-left: 800px;
+    margin-top: 50px;
+    background-color: white;
+    color: rgb(169, 65, 65);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.btn:hover {
+    background-color: rgb(169, 65, 65);
+    color: white;
+    transition: 0.5s;
+}
+.b1 {
+    background-color: rgb(240, 251, 255);
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 330px;
+    border-radius: 20px;
+}
+.b1 h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 22px;
+}
+.b1 p {
+    text-align: center;
+    font-size: 22px;
+}
+.dlyabuttons {
+    float: left;
+    width: 670px;
+    height: 380px;
+    padding: 40px;
+}
+.dlyabuttons li{
+    display: inline-block;
+}
+.dlyabuttons i {
+    color: rgb(137, 28, 28);
+    font-size: 25px;
+}
+.dlyabuttons button{
+    width: 270px;
+    height: 60px;
+    margin-top: 18px;
+    margin-left: 20px;
+    border: none;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.dlyabuttons button:hover {
+    border: 1px solid rgb(137, 28, 28);
+}
+.spanlar {
+    margin-left: 10px;
+    color: rgb(168, 49, 49);
+}
+.karta {
+    float: right;
+    width: 530px;
+    height: 380px;
+    padding: 40px;
+}
+.batafsl {
+    padding-left: 230px;
+    margin-top: -70px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.batafsl a{
+    color: white;
+}
+.batafsl a:hover {
+    color: red;
+    transition: 0.4s;
+}
+.b2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(240, 251, 255);
+}
+.b2in {
+    width: 1250px;
+    margin: auto;
+}
+.brnmala {
+    width: 850px;
+    height: 250px;
+    padding-top: 50px;
+    font-size: 18px;
+    float: left;
+}
+.reklama {
+    float: right;
+    margin-top: -180px;
+}
+.flexga {
+    display: flex;
+    margin-top: 50px;
+}
+.input {
+    width: 450px;
+}
+.input input {
+    width: 250px;
+}
+input[type="text"]{
+    height: 40px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+input[type=range] {
+    height: 34px;
+    /* -webkit-appearance: none; */
+    margin: -9px 100px;
+    width: 250px;
+    background-color: transparent;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #002200;
+    background: #BF0000;
+    border-radius: 7px;
+    border: 0px solid #18D501;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 3px 3px 3px #BF0000;
+    border: 2px solid #BF0000;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6.5px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #BF0000;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #002200;
+    background: #BF0000;
+    border-radius: 7px;
+    border: 0px solid #18D501;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 3px 3px 3px #BF0000;
+    border: 2px solid #BF0000;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #BF0000;
+    border: 0px solid #18D501;
+    border-radius: 14px;
+    box-shadow: 0px 0px 0px #002200;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #BF0000;
+    border: 0px solid #18D501;
+    border-radius: 14px;
+    box-shadow: 0px 0px 0px #002200;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 3px 3px 3px #BF0000;
+    border: 2px solid #BF0000;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #BF0000;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #BF0000;
+  }
+
+.sanasi {
+    width: 380px;
+}
+.sanasi button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #BF0000;
+    border-radius: 4px;
+}
+.sanasi button:hover {
+    transition: 0.2s;
+    background-color: #BF0000;
+    color: white;
+}
+.b3 {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.b3in {
+    width: 1250px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(240, 251, 255);
+    border-radius: 20px;
+}
+.skidka {
+    display: flex;
+}
+.chiptalar {
+    width: 110px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.skidka i {
+    color: red;
+    font-size: 33px;
+}
+.cap {
+    padding: 50px;
+    width: 50%;
+    float: left;
+}
+.cap button {
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #BF0000;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.cap button:hover {
+    transition: 0.2s;
+    background-color: #BF0000;
+    color: white;
+}
+.o1ng {
+    width: 50%;
+    float: right;
+}
+.o1ng img {
+    float: right;
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    clip: rect(0px,4000px,450px,0px);
+    transform: rotate(-25deg);
+}
